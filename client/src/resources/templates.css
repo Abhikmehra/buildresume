@@ -1,0 +1,68 @@
+/* Home Page Templates Styling */
+.home .template {
+    margin: 20px;
+    box-shadow: 0 0 3px gray;
+    position: relative; /* Ensure the .template div is positioned relatively */
+    overflow: hidden; /* Hide any overflow content */
+    width:320px;
+    height: 350px;
+}
+
+.home .template img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.home .template .text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-size: 35px;
+    transition: opacity 0.3s ease;
+}
+
+.home .template:hover .text {
+    opacity: 0.8;
+    flex-direction: column;
+}
+.home .template button{
+    background-color: white !important;
+    color: black !important;
+    font-size: 16px !important;
+    padding: 0 20px;
+}
+/* templates1 styling */
+.templates1-parent{
+    color: rgb(0, 0, 0, 0.699) !important;
+    padding: 50px;
+}
+.templates1-parent h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.699) !important;
+
+}
+.templates1-parent p{
+    padding-top: 0 !important;
+    margin-top: 2px !important;
+    margin-bottom: 0 !important;
+    font-size: 15px;
+}
+.templates1-parent h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.templates1-parent h6{
+     margin: 0 !important;
+     bottom:  0 !important;
+}
+

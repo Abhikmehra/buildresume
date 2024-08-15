@@ -1,0 +1,39 @@
+.auth-parent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-vector/black-abstract-background_1393-348.jpg?t=st=1718765726~exp=1718769326~hmac=d796d2ea550e4b4e4fbd85036b87b935068eab6aa8293ecc017fad8c1620f421&w=900);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    position: absolute;
+    width: 100%;
+}
+.auth-parent form{
+    width: 400px;
+    box-shadow: 0 0 3px gray;
+    padding: 20px;
+    border-radius: 2px;
+    z-index: 1;
+    padding: 60px 30px;
+}
+.auth-parent h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+/* .brand{
+    font-size: 250px !important;
+    position: absolute;
+    top: 0%;
+   width: 100%;
+    left: 5%0;
+   text-align: center;
+    transform: translate(-50% -50%);
+}
+@media only screen and (max-width:1000px){
+    .brand{
+        display: none;
+    }
+} */
